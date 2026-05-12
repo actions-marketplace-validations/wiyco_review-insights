@@ -13,8 +13,9 @@
   ],
   "ignorePaths": [
     "node_modules",
-    "coverage",
     "dist",
+    "coverage",
+    "pnpm-lock.yaml",
     "/project-words.txt"
   ]
 }
