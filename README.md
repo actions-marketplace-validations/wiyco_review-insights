@@ -147,6 +147,8 @@ permissions:
 
 ## Development
 
+Use the Node.js version in `.node-version` and pnpm version in `package.json`.
+
 ```bash
 pnpm install
 pnpm run check    # Biome lint + format
