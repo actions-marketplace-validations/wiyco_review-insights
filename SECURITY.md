@@ -4,8 +4,10 @@
 
 | Version | Supported |
 | ------- | --------- |
-| v1.x    | ✅        |
+| v1.x    | ❌        |
 | v2.x    | ✅        |
+
+Only the latest supported major release line receives security fixes.
 
 ## Reporting a Vulnerability
 

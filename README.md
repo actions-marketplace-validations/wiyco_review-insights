@@ -147,6 +147,10 @@ permissions:
 
 ## Development
 
+Use the Node.js version in `.node-version` and pnpm version in `package.json`.
+
+For VS Code, install the recommended [TypeScript 7 extension](https://marketplace.visualstudio.com/items?itemName=TypeScriptTeam.native-preview). The workspace settings enable its native language service and use the locally installed TypeScript package.
+
 ```bash
 pnpm install
 pnpm run check    # Biome lint + format

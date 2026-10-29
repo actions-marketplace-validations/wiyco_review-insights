@@ -77,7 +77,7 @@ Entry point is `src/main.ts` → `run()` which orchestrates the full pipeline. A
 
 ## Tooling
 
-- **Node ≥24**, **pnpm 10**, **TypeScript** (ES2024, strict, composite project references)
+- **Node 24.22.1** (`.node-version`), **pnpm 12.15.0**, **TypeScript 7** (ES2024, strict, composite project references)
 - **Rolldown** bundles to single ESM file for the action runtime
 - **Biome 2** for linting/formatting (2-space indent, 80-char width)
 - **Vitest** with V8 coverage

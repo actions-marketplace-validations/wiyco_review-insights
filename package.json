@@ -1,6 +1,6 @@
 {
   "name": "review-insights",
-  "version": "2.0.2",
+  "version": "2.0.4",
   "description": "GitHub Action to analyze code review patterns, detect workload imbalances, track AI adoption impact, and visualize team dynamics with charts.",
   "main": "dist/index.mjs",
   "exports": {
@@ -36,19 +36,20 @@
   "engines": {
     "node": ">=24"
   },
-  "packageManager": "pnpm@11.8.0",
+  "packageManager": "pnpm@12.15.0",
   "dependencies": {
-    "@actions/artifact": "^6.2.1",
+    "@actions/artifact": "^6.3.1",
     "@actions/core": "^3.0.1",
     "@actions/github": "^9.1.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.0",
-    "@types/node": "^24.12.4",
-    "@vitest/coverage-v8": "^4.1.9",
-    "lefthook": "^2.1.6",
-    "rolldown": "1.1.2",
-    "typescript": "^6.0.3",
-    "vitest": "^4.1.9"
+    "@biomejs/biome": "2.5.15",
+    "@types/node": "^24.19.2",
+    "@vitest/coverage-v8": "^5.0.5",
+    "lefthook": "^2.2.2",
+    "rolldown": "1.2.14",
+    "typescript": "^7.0.2",
+    "vite": "8.3.4",
+    "vitest": "^5.0.5"
   }
 }
